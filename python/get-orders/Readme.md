@@ -1,5 +1,5 @@
 # Get information about ROs of a given department
-This program takes the follwoing inputs: 
+This program takes the following inputs: 
 - the UUID of the department
 - the date the ROs were opened
 - the status code of the ROs we are looking for
