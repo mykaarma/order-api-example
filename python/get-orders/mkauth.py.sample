@@ -1,10 +1,6 @@
-# Examples on how to use the myKaarma order API
-This repository contains sample applications built upon the myKaarma platform, specifially the appointment API, whose specs are available at [this OpenAPI/Swagger page](https://api.mykaarma.com/order/v2/). Please feel free to reach out to us with any feedback.
-
-# License
-```
-
-    This codebase contains exmaples and libraries to use the myKaarma order API
+# mkauth
+'''
+    This codebase contains exmaples and libraries to use the myKaarma order API.
     Copyright (C) 2021 myKaarma
 
     This library is free software; you can redistribute it and/or
@@ -21,11 +17,13 @@ This repository contains sample applications built upon the myKaarma platform, s
     License along with this library; if not, write to the Free Software
     Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301
     USA
+'''
 
-```
+# MAKE A COPY OF THIS FILE AND CALL IT mkauth.py
 
-# How to use
-Please browse the examples under the various folders, for each language.
-
-# How to contribute
-We accept code samples to help show how to use the APIs in various languages. Please feel free to fork the repo and raise a PR. Please do NOT commit any authentication information in the PR.
+# BASE URLs for production environment
+customer_base_url = '''https://api.mykaarma.com/customer/v2'''
+order_base_url = '''https://api.mykaarma.com/order/v2'''
+# for Your API User
+username = '''USERNAME_HERE'''
+password = '''PASSWORD_HERE'''
