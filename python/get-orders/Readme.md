@@ -7,6 +7,7 @@ This program takes the following inputs:
 
 
 # Dependencies
+(see beginner tips below if needed)
 - python3
 - optparse
 - pprint
