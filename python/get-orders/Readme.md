@@ -31,3 +31,10 @@ e.g. for all pre-invoiced (status 'P') ROs of dept abcd1234 opened on date 2021-
 ```
  python get-orders.py -p abcd1234 -d 2021-10-14 -t P -f data-2021-10-14.csv  -v > out.log
 ```
+
+# Python beginner tips
+- use pip to install dependencies
+```
+example:
+pip install requests flatten_json
+```
